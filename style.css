@@ -3,12 +3,15 @@ html, body {
   width: 100%;
 }
 
+#bow{
+position:absolute;
+}
+
 body {
   background-color: #eccbd2;
   border: 3px solid #edcbd2;
   height: 100vh;
   text-align: center;
-  
 }
 
 .hero {
@@ -21,9 +24,6 @@ body {
   background-size: 16em;
 }
 
-img .hero {
-  size: 50px;
-}
 .business {
   font-size: 15px;
   height: 100vh;
@@ -39,6 +39,7 @@ h3 {
   text-align: center;
   position: absolute;
   top: 54em;
+  left: 89px;
 }
 
 h2 {
@@ -50,4 +51,8 @@ h1 {
   position: absolute;
   left: 20em;
   top: 3em;
+}
+
+a:visited {
+  color: #fecedd;
 }
